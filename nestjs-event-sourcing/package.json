@@ -1,0 +1,98 @@
+{
+  "name": "nestjs-event-sourcing",
+  "version": "1.0.1",
+  "description": "Support of Event Sourcing based on MongoDB for NestJS",
+  "author": "Kevin Vogel <hellokevinvogel@gmail.com>",
+  "url": "https://github.com/hellokvn/nestjs-event-sourcing#readme",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "files": [
+    "dist/**/*",
+    "src/**/*",
+    "*.md"
+  ],
+  "scripts": {
+    "start:dev": "tsc -w",
+    "build": "rimraf ./dist && tsc -p tsconfig.json",
+    "prepare": "yarn build",
+    "format": "prettier --write \"src/**/*.ts\"",
+    "lint": "eslint \"{src,test}/**/*.ts\" --fix",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:cov": "jest --coverage",
+    "test:e2e": "jest --config ./test/jest-e2e.json"
+  },
+  "keywords": [
+    "nestjs",
+    "nest"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hellokvn/nestjs-event-sourcing"
+  },
+  "bugs": {
+    "url": "https://github.com/hellokvn/nestjs-event-sourcing"
+  },
+  "resolutions": {
+    "**/**/ky": ">=0.30.0",
+    "**/**/ky-universal": ">=0.10.1",
+    "**/ky-universal/**/node-fetch": ">=3.2.3"
+  },
+  "peerDependencies": {
+    "@nestjs/common": "^8.4.4"
+  },
+  "dependencies": {
+    "@nestjs/cqrs": "^8.0.3",
+    "@nestjs/mongoose": "^9.0.3",
+    "form-data": "^4.0.0",
+    "mailgun.js": "^5.2.0",
+    "mongodb": "^4.5.0",
+    "mongoose": "^6.3.0",
+    "moongoose": "0.0.5",
+    "reflect-metadata": "^0.1.13",
+    "rxjs": "^7.5.5"
+  },
+  "devDependencies": {
+    "@nestjs/common": "^8.4.4",
+    "@nestjs/config": "^2.0.0",
+    "@nestjs/core": "^8.4.4",
+    "@nestjs/platform-express": "^8.4.4",
+    "@nestjs/testing": "8.4.4",
+    "@types/express": "4.17.13",
+    "@types/jest": "27.4.1",
+    "@types/node": "17.0.23",
+    "@types/supertest": "2.0.12",
+    "@typescript-eslint/eslint-plugin": "^5.18.0",
+    "@typescript-eslint/parser": "^5.18.0",
+    "eslint": "^8.13.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-airbnb-typescript": "^17.0.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "jest": "27.5.1",
+    "prettier": "2.6.2",
+    "rimraf": "^3.0.2",
+    "supertest": "6.2.2",
+    "ts-jest": "27.1.4",
+    "typescript": "^4.6.3"
+  },
+  "jest": {
+    "moduleFileExtensions": [
+      "js",
+      "json",
+      "ts"
+    ],
+    "rootDir": "src",
+    "testRegex": ".spec.ts$",
+    "transform": {
+      "^.+\\.(t|j)s$": "ts-jest"
+    },
+    "coverageDirectory": "../coverage",
+    "testEnvironment": "node"
+  },
+  "homepage": "https://github.com/hellokvn/nestjs-event-sourcing#readme"
+}

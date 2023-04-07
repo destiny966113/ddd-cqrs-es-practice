@@ -1,0 +1,34 @@
+{
+  "collection": "@nestjs/schematics",
+  "sourceRoot": "apps/query/src",
+  "monorepo": true,
+  "root": "apps/query",
+  "compilerOptions": {
+    "webpack": true,
+    "tsConfigPath": "apps/query/tsconfig.app.json"
+  },
+  "projects": {
+    "query": {
+      "type": "application",
+      "root": "apps/query",
+      "entryFile": "main",
+      "sourceRoot": "apps/query/src",
+      "compilerOptions": {
+        "tsConfigPath": "apps/query/tsconfig.app.json",
+        "assets": ["**/*.proto"],
+        "watchAssets": true
+      }
+    },
+    "command": {
+      "type": "application",
+      "root": "apps/command",
+      "entryFile": "main",
+      "sourceRoot": "apps/command/src",
+      "compilerOptions": {
+        "tsConfigPath": "apps/command/tsconfig.app.json",
+        "assets": ["**/*.proto"],
+        "watchAssets": true
+      }
+    }
+  }
+}
