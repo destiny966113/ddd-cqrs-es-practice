@@ -17,6 +17,9 @@ https://ithelp.ithome.com.tw/articles/10236124
 ![image](https://user-images.githubusercontent.com/90891243/230528652-5194c9e6-9e7f-49fb-89d6-01d9aefa717d.png)
 ![image](https://user-images.githubusercontent.com/90891243/230528822-cac20edf-b094-4601-bdda-eae74adbc97d.png)
 ![image](https://user-images.githubusercontent.com/90891243/230528833-55b57b88-594e-40b9-a643-15eca6c19da9.png)
+![image](https://user-images.githubusercontent.com/90891243/230574809-ae51ea18-09de-42ad-aba8-5509c52e9ffc.png)
+![image](https://user-images.githubusercontent.com/90891243/230574852-3ca2ecc8-e259-45eb-b133-3f2915bbfe0d.png)
+
 
 - [ ] 3. 根據架構圖與實際專案 demo 進行討論
 ![image](https://user-images.githubusercontent.com/90891243/230529647-c3bc2e68-1304-4791-b6f5-501f92accd95.png)
