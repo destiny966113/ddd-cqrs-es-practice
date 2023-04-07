@@ -23,5 +23,6 @@ https://ithelp.ithome.com.tw/articles/10236124
 
 - [ ] 3. 根據架構圖與實際專案 demo 進行討論
 ![image](https://user-images.githubusercontent.com/90891243/230529647-c3bc2e68-1304-4791-b6f5-501f92accd95.png)
+![image](https://user-images.githubusercontent.com/90891243/230576496-7930b624-20f4-48d9-a761-fad754df6971.png)
 
 - [ ] 4. demo 結束後可以再討論要嘗試加上去的功能或是如何調整專案架構
